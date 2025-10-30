@@ -1,0 +1,5 @@
+{
+  "name": "Birthday Countdown",
+  "description": "A visually appealing countdown timer to celebrate upcoming birthday. It displays the remaining time and can send a notification on the special day.",
+  "requestFramePermissions": []
+}
