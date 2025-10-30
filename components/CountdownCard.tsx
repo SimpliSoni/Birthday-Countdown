@@ -23,7 +23,7 @@ const CountdownCard: React.FC<CountdownCardProps> = ({ value, label, animationDe
         
         <div className="relative z-10 text-center">
           <span 
-            key={label + value} 
+            key={`${label}-${value}`} 
             className="text-4xl sm:text-6xl font-bold text-gray-800 tracking-wider transition-opacity duration-300"
           >
             {formattedValue}
